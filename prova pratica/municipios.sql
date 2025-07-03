@@ -1,0 +1,6 @@
+CREATE TABLE municipios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    uf CHAR(2) NOT NULL,
+    regiao VARCHAR(20) NOT NULL
+);
